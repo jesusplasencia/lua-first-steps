@@ -1,7 +1,7 @@
 local favorite_dishes = { "ceviche", "papa rellena", "chicha morada" };
--- for index = 1, #favorite_dishes do
---     print(index, favorite_dishes[index])
--- end
+for index = 1, #favorite_dishes do
+    print(index, favorite_dishes[index])
+end
 
 -- for index, value in ipairs(favorite_dishes) do
 --     print(index, value)
